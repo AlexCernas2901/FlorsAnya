@@ -1,11 +1,10 @@
-import './App.css'
+import './styles/App.css'
 import { Header } from './components/Header.jsx'
 
 export default function App() {
   return (
-    <div>
+    <div className='main-container'>
       <Header />
-      <h1>FlorsAnya</h1>
     </div>
   )
 }
