@@ -1,4 +1,4 @@
-import { ArrowRightIcon } from './icons/HeaderIcons.jsx'
+import { ArrowRightIcon } from '../icons/HeaderIcons.jsx'
 
 export function HeaderMenu() {
   return (
