@@ -1,0 +1,13 @@
+.main-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  padding-top: 10vh;
+  box-sizing: border-box;
+}
+
+.content-section {
+  height: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}

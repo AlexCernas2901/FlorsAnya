@@ -3,9 +3,12 @@ import { Header } from './components/Header.jsx'
 
 export default function App() {
   return (
-    <div>
+    <div className='app'>
       <Header />
-      <h1>FlorsAnya</h1>
+      <div className='main-container'>
+        <main className='content-section'>Main</main>
+        <section className='content-section'>Section1</section>
+      </div>
     </div>
   )
 }
