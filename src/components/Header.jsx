@@ -1,6 +1,5 @@
 import '../styles/Header.css'
-import { SearchIcon, MenuIcon } from '../icons/header.jsx'
-import { HeaderMenu } from '../components/HeaderMenu.jsx'
+import { SearchIcon, MenuIcon } from '../icons/HeaderIcons.jsx'
 
 export function Header() {
   return (
