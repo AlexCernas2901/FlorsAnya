@@ -1,4 +1,5 @@
 import '../styles/Header.css'
+import { HeaderMenu } from '../components/HeaderMenu.jsx'
 
 export function Header() {
   return (
