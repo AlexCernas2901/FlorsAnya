@@ -1,7 +1,9 @@
 .florsanya-title {
+    text-align: center;
 }
 
 .florsanya-header-ul {
+<<<<<<< HEAD
   list-style-type: none;
 }
 
@@ -11,3 +13,63 @@
 .florsanya-header-ul-button-search {
   margin-left: 100px;
 }
+=======
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    width: 20%;
+    width: auto;
+
+}
+
+.florsanya-header-ul-button {
+    background-color: #f2f2f2;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    /*text-decoration: none;*/
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+
+.florsanya-header-ul-button-search {
+    background-color: #f2f2f2;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+    /*fill: #000000;*/
+
+}
+
+.florsanya-header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f2f2f2;
+
+}
+>>>>>>> 2b7fbfb6bada4c4309a8dbed52971cfebc9de595
