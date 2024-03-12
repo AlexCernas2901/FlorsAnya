@@ -5,9 +5,9 @@ import { useState } from 'react'
 import logo from '../assets/logo.png'
 
 export function Header() {
-  const [menu, setMenu] = useState(false)
+  const [menu, setMenu] = useState(true)
 
-  const handleClick = () => {
+  const haandleClick = () => {
     setMenu(!menu)
   }
 
@@ -26,6 +26,13 @@ export function Header() {
               </button>
             </li>
             <li>
+              <button
+                className='nav-button'
+                aria-label='Menu'
+                onClick={haandleClick}
+              >
+                {menu ? <MenuIcon /> : <CloseMenu />}
+              </button>
               <button
                 className='nav-button'
                 aria-label='Menu'
